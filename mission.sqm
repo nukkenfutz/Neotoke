@@ -1,0 +1,241 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"A3_Characters_F_Gamma",
+		"a3_characters_f",
+		"wl_wroute191",
+		"rhs_c_troops"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_Gamma",
+		"a3_characters_f",
+		"rhs_c_troops",
+		"wl_wroute191"
+	};
+	randomSeed=4514675;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.1;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2012;
+		month=7;
+		day=7;
+		hour=9;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+	class Groups
+	{
+		items=3;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3184.2568,61.910538,1984.9867};
+					azimut=295;
+					id=0;
+					side="WEST";
+					vehicle="B_G_Soldier_F";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+					text="ghost";
+				};
+			};
+		};
+		class Item1
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3149.094,61.290524,1993.8312};
+					azimut=295;
+					id=1;
+					side="EAST";
+					vehicle="rhs_msv_rifleman";
+					leader=1;
+					skill=0.60000002;
+					text="e1";
+				};
+			};
+			class Waypoints
+			{
+				items=2;
+				class Item0
+				{
+					position[]={3150.1003,61.290524,2007.9221};
+					completitionRadius=1;
+					combatMode="BLUE";
+					speed="LIMITED";
+					combat="CARELESS";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={3147.5281,61.290524,1993.4958};
+					completitionRadius=1;
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item2
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3151.9607,61.290524,2007.8226};
+					azimut=295;
+					id=2;
+					side="EAST";
+					vehicle="rhs_msv_rifleman";
+					leader=1;
+					skill=0.60000002;
+					text="e2";
+				};
+			};
+			class Waypoints
+			{
+				items=2;
+				class Item0
+				{
+					position[]={3150.0388,61.290524,1993.7823};
+					completitionRadius=1;
+					combatMode="BLUE";
+					speed="LIMITED";
+					combat="CARELESS";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={3151.4089,61.290524,2008.8547};
+					completitionRadius=1;
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"wl_wroute191"
+	};
+	addOnsAuto[]=
+	{
+		"wl_wroute191"
+	};
+	randomSeed=11978016;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.1;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2012;
+		month=7;
+		day=7;
+		hour=9;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"wl_wroute191"
+	};
+	addOnsAuto[]=
+	{
+		"wl_wroute191"
+	};
+	randomSeed=9378470;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.1;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2012;
+		month=7;
+		day=7;
+		hour=9;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"wl_wroute191"
+	};
+	addOnsAuto[]=
+	{
+		"wl_wroute191"
+	};
+	randomSeed=7301617;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.1;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2012;
+		month=7;
+		day=7;
+		hour=9;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
